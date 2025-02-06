@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import { FoodContainer3D } from "./FoodContainer3D";
 
 export const Hero = () => {
   return (
@@ -39,6 +40,8 @@ export const Hero = () => {
           </motion.button>
         </motion.div>
       </div>
+
+      <FoodContainer3D />
     </section>
   );
 };
