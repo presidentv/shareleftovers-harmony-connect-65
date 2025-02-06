@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Heart, World, Frown, AlertCircle } from "lucide-react";
+import { Heart, Globe, Frown, AlertCircle } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -10,7 +10,7 @@ import {
 
 const stats = [
   {
-    icon: World,
+    icon: Globe,
     title: "828 Million",
     description: "People affected by hunger globally",
   },
